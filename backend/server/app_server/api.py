@@ -44,4 +44,3 @@ class LoginAPI(viewsets.ViewSet):
 
     def login(self, request):
         return LoginHelper().login_helper(request.data)
-
